@@ -9,7 +9,7 @@ public class Main
 		
 		try {
 			
-			Process p = Runtime.getRuntime().exec("mkdir -p /home/sooraj/Hello_World_From_Nomad");
+			Process p = Runtime.getRuntime().exec("mkdir -p /home/vagrant/Hello_World_From_Nomad");
 			BufferedReader stdInput = new BufferedReader(new InputStreamReader(p.getInputStream()));
 			BufferedReader stdError = new BufferedReader(new InputStreamReader(p.getErrorStream()));
 			
